@@ -25,9 +25,3 @@ wget -O - $URL | lz4 -d | tar -xvf -
 mv data-backup-2022-3-7 data
 comdex start
 ```
- 
----
-## rocksdb
- 
-- Install instructions for Ubuntu: [checkout this gist](https://gist.github.com/clemensgg/907de16baa203946633ddca462cbf597)
-- Cosmos go-rocksdb repo: https://github.com/cosmos/gorocksdb
