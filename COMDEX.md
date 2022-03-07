@@ -19,6 +19,7 @@ comdex start
 ```
 *or (single-stream, no double disk-space needed, but no possibility to check hash)*
 ```sh
+$URL=<paste URL>
 cd $HOME/.comdex
 rm -r data
 wget -O - $URL | lz4 -d | tar -xvf -
